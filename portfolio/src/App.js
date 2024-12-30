@@ -1,8 +1,14 @@
-import Header from './components/layout/Header/header.jsx';
+import Header from './components/layout/Header/header.js';
+import MainPage from "./components/layout/MainPage/mainPage.js"
 
 function App() {
   return (
-    <Header/>
+    <div>
+      <Header />
+      <MainPage></MainPage>      
+    </div>
+
+
   );
 }
 
